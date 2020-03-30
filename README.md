@@ -4,9 +4,10 @@
 
 + First, you need to create a php file to store some env constants and require it in Logger.php;
 
-Then, modify member variable $logDir to your log path and make sure it's writable;
++ Then, modify member variable $logDir to your log path and make sure it's writable;
 
-Modify the member function Logger::ifWriteByEnv() and use the env constants to control what levels to write in different envs. 
++ Modify the member function Logger::ifWriteByEnv() and use the env constants to control what levels to write in different envs. 
+
 <pre>
 require 'Logger.php';
 $identifier = 'test'; // a dir to distinguish in your $logerDir, like /path/to/your-log-dir/test.
