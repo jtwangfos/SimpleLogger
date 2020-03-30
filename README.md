@@ -6,7 +6,7 @@
 
 + Then, modify member variable $logDir to your log path and make sure it's writable;
 
-+ Modify the member function Logger::ifWriteByEnv() and use the env constants to control what levels to write in different envs. 
++ Modify the member function Logger::ifWriteByEnv() and use the env constants to control what level to write in different envs. 
 
 <pre>
 require 'Logger.php';
